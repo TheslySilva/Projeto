@@ -1,3 +1,3 @@
-const pessoa = ["Thesly", 21, "Pimenteiras"];
+const pessoa = ["Thesly", "Pimenteiras"];
 
 document.getElementById("nome").textContent = pessoa[0];
