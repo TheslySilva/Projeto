@@ -1,7 +1,3 @@
-const pessoa = {
-  "nome": "thesly",
-  idade: 21,
-  cidade: "Pimenteiras",
-};
+const pessoa = ["Thesly", 21, "Pimenteiras"]
 
-document.getElementById("nome").textContent = pessoa.nome;
+document.getElementById("nome").textContent = pessoa[1];
