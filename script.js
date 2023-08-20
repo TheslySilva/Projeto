@@ -1,5 +1,5 @@
 const agora = new Date();
-const horario = 15;
+const horario = agora.gethours();
 
 if (hora >= 6 && hora <= 11) {
   document.getElementById("hora").innerHTML = "Bom Dia!";
