@@ -1,7 +1,7 @@
 const agora = new Date();
 const horario = agora.getHours();
 console.log(horario);
-if (hora >= 9 && hora <= 11) {
+if (hora >= 9 && hora <=11) {
   document.getElementById("hora").innerHTML = "Bom Dia!";
 } else if (hora >= 12 && hora <= 17) {
   document.getElementById("hora").innerHTML = "Boa Tarde!";
