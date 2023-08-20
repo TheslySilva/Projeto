@@ -1,0 +1,158 @@
+* {
+  color: #fbfbfb;
+}
+body {
+  background-color: #0f0f0f;
+  margin: 5px;
+}
+header {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 2px;
+}
+.subConteiner {
+  width: 70%;
+}
+.conteinerIcon {
+  width: 15%;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 270, "GRAD" 0, "opsz" 48;
+  font-size: 54px;
+}
+
+.imagem {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.saudacao {
+  margin-left: 6px;
+}
+.texto {
+  font-size: 27px;
+}
+
+.conteinerNav {
+  position: sticky;
+  background-color: #0f0f0f;
+  top: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 55px;
+  margin: 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  margin-right: 5px;
+  background-color: #3a3a3a;
+  border-radius: 9px;
+}
+.grid-Conteiner {
+  display: grid;
+
+  grid-column-gap: 6px;
+  grid-row-gap: 8px;
+  grid-template-columns: 50% 50%;
+}
+.grid-Itens {
+  display: flex;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #3a3a3a;
+}
+.subConteinerFlex {
+  display: flex;
+  width: 97%;
+  justify-content: center;
+}
+.manoelGomes {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.descricao {
+  margin-top: 0px;
+}
+h4 {
+  color: #fbfbfb;
+}
+.grid-Conteiner-Album,
+.artistas {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-width: none;
+  width: 428px;
+}
+.album {
+  height: 220px;
+}
+.albuns,
+.fotoCantor {
+  display: flex;
+  height: 170px;
+  width: 170px;
+}
+footer {
+  position: sticky;
+  bottom: 0px;
+  height: 60px;
+  width: 425px;
+  margin: 0;
+  margin: 0px;
+}
+.playerConteiner {
+  background-color: #47484e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  margin: 0;
+}
+.conteinerS {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100px;
+}
+.itemPlayer {
+  display: flex;
+}
+.iconPlayer {
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin-right: 12px;
+}
+.like {
+  font-size: 37px;
+}
+.play {
+  font-size: 50px;
+}
+.cantor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fotoCantor {
+  border-radius: 100px;
+}
